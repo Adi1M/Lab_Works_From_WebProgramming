@@ -1,0 +1,42 @@
+body > div {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 2vh;
+}
+
+#blocks > div {
+    background-color: #21252a;
+    width: 10vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+#block{
+
+}
+
+#blocks {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 15vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons > button {
+    height: 10vh;
+    width: 10vw;
+    margin: 1vh;
+    background-color: #0a6dfa;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}

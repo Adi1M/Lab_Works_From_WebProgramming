@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="last_lab.css">
+</head>
+<body>
+<div class="maincontainer">
+    <div class="card" id="card">
+        <div class="front">
+            <form action="Registration.php" method="post">
+                <h1>Registration</h1>
+                <label for="uname"><b>Full Name</b></label><br>
+                <input type="text" name="full" placeholder="Enter Full name" id="uname" autocomplete="off"><br><br>
+
+                <label for="psw"><b>Password</b></label><br>
+                <input type="password" name="password" placeholder="Enter password" id="psw" required><br><br>
+
+                <label for="Date"><b style="margin-right: 10px">Birth date</b></label>
+                <input type="date" id="Date" name="birth" required><br><br>
+
+                <label for="email"><b>Enter your email</b></label><br>
+                <input type="text" name="email_add" placeholder="Enter your email" id="email" autocomplete="off"><br><br>
+
+                <label for="male"><b>Male</b></label>
+                <input type="radio" name="gender" id="male" required>
+
+                <label for="female"><b>Female</b></label>
+                <input type="radio" name="gender" id="female" required><br><br>
+
+
+                <button id="reg">Registration</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="lab_7.css">
+</head>
+<body>
+<div class="maincontainer">
+  <div class="card" id="card">
+    <div class="front">
+      <form>
+        <h1>Registration</h1>
+        <label for="uname"><b>Full Name</b></label><br>
+        <input type="text" placeholder="Enter Full name" id="uname" required><br><br>
+
+        <label for="psw"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter password" id="psw" required><br><br>
+
+        <label for="image"><b>Profile Photo</b></label><br><br>
+        <input type="file" placeholder="Choose a photo" id="image" required><br><br>
+
+        <label for="Date"><b style="margin-right: 10px">Birth date</b></label>
+        <input type="date" id="Date" required><br><br>
+
+        <label for="email"><b>Enter your email</b></label><br>
+        <input type="text" placeholder="Enter your email" id="email" required><br><br>
+
+        <label for="time"><b>Birth hour</b></label><br>
+        <input type="time" placeholder="Enter Username" id="time" required><br><br>
+
+        <label for="male"><b>Male</b></label>
+        <input type="radio" name="gender" id="male" required>
+
+        <label for="female"><b>Female</b></label>
+        <input type="radio" name="gender" id="female" required><br><br>
+
+        <label for="color"><b>Favorite color</b></label>
+        <input type="color" id="color" required><br><br>
+
+        <label for="color"><b>Select country</b></label>
+        <select id="country" required>
+          <option value="Germany">Germany</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Russia">Russia</option>
+        </select><br><br>
+
+
+        <button id="reg">Registration</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body{
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.box{
+    width: 80vw;
+    height: 60vh;
+    background-color: rgb(165, 158, 158, 0.3);
+    margin: 25px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.box_1_1{
+    border: 1px solid black;
+    margin: 10px;
+    width: 20vw;
+    height: 25vh;
+    padding: 3px;
+}
+
+.box_1_2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.box_2_1{
+    display: flex;
+    margin-left: 20px;
+    overflow: hidden;
+    color: white;
+}
+
+.box_2_2{
+    display: flex;
+    margin-left: 20px;
+    overflow: hidden;
+    color:white;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    color: white;
+    flex-direction: column;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+.footer_up{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid dimgray;
+    background-color: dimgray;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.href{
+    color: white;
+    text-decoration: none;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    font-weight: bolder;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.icon{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 5vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 10px;
+}
+
+
+
